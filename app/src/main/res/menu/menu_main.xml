@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mishkin.tesseract.MainActivity">
+    <item
+        android:id="@+id/action_openfile"
+        android:icon="@drawable/openfile"
+        android:orderInCategory="100"
+        app:showAsAction="always|withText"
+        android:title="Открыть" />
+    <item
+        android:id="@+id/action_topdf"
+        android:icon="@drawable/topdf"
+        android:orderInCategory="100"
+        app:showAsAction="always|withText"
+        android:title="В pdf" />
+    <item
+        android:id="@+id/action_emailto"
+        android:icon="@drawable/emailto"
+        android:orderInCategory="100"
+        app:showAsAction="always|withText"
+        android:title="emailto" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
